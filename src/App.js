@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import marked from 'marked';
+var Markdown = require('./Markdown.js');
 
 class App extends Component {
   render() {
@@ -8,9 +10,7 @@ class App extends Component {
         <div className="App-header">
           <h1>React Markdown Preview</h1>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Markdown />
       </div>
     );
   }

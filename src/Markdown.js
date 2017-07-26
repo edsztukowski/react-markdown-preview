@@ -20,15 +20,13 @@ class Markdown extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="row">
         <div className='input-left'>
-          <form>
-            <input
+            <textarea
               type="text"
               name="markdown-input"
               onChange={this.getMarkdownText}
             />
-          </form>
         </div>
         <div className='output-right' dangerouslySetInnerHTML={{__html: this.state.markDownText}} />
       </div>

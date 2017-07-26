@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import octocat from './octocat.png';
 var Markdown = require('./Markdown.js');
 
 class App extends Component {
@@ -18,6 +19,13 @@ class App extends Component {
         </div>
         <div className="markdown-container">
           <Markdown />
+        </div>
+        <div className="footer">
+          <h4>Built with React by Ed Sztukowski | 2017</h4>
+          <div>
+            <a href="https://github.com/edsztukowski/react-markdown-preview"><img src={octocat}></img></a>
+
+            </div>
         </div>
       </div>
     );

@@ -20,9 +20,14 @@ body {
   float: right;
 }
 
-
-
 .input-left textarea {
   width: 500px;
   height: 300px;
+}
+
+.footer {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 5em;
 }

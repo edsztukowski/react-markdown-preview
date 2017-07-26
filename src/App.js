@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import marked from 'marked';
 var Markdown = require('./Markdown.js');
 
 class App extends Component {

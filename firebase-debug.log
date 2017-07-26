@@ -1,0 +1,23 @@
+[debug] [2017-07-26T22:58:11.507Z] ----------------------------------------------------------------------
+[debug] [2017-07-26T22:58:11.510Z] Command:      /usr/local/bin/node /Users/edwardsztukowski/react-markdown-preview/node_modules/.bin/firebase deploy
+[debug] [2017-07-26T22:58:11.511Z] CLI Version:  3.9.1
+[debug] [2017-07-26T22:58:11.511Z] Platform:     darwin
+[debug] [2017-07-26T22:58:11.511Z] Node Version: v6.10.3
+[debug] [2017-07-26T22:58:11.512Z] Time:         Wed Jul 26 2017 16:58:11 GMT-0600 (MDT)
+[debug] [2017-07-26T22:58:11.512Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-26T22:58:11.527Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-26T22:58:11.528Z] > authorizing via signed-in user
+[debug] [2017-07-26T22:58:11.530Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/react-markdown-preview  
+ Wed Jul 26 2017 16:58:11 GMT-0600 (MDT)
+[debug] [2017-07-26T22:58:12.127Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-26T22:58:12.129Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/react-markdown-preview/tokens  
+ Wed Jul 26 2017 16:58:12 GMT-0600 (MDT)
+[debug] [2017-07-26T22:58:13.043Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'react-markdown-preview'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing build directory for upload...
+[debug] [2017-07-26T22:58:13.697Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/react-markdown-preview/uploads/-Kq06nZhpFfOvovvwRUB?fileCount=10&message=  
+ Wed Jul 26 2017 16:58:13 GMT-0600 (MDT)
